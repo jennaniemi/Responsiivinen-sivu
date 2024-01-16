@@ -141,4 +141,10 @@ footer {
     article div img {
         height: 350px;
     }
+
+    @media only screen and (max-width: 992px) {
+        div#content section {
+            flex-direction: column;
+        }
+    }
 }
