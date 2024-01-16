@@ -81,3 +81,20 @@ header h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav {
+    display: inherit;
+    align-items: center;
+    border-top: 1px solid var(--dark-foreground-color);
+    border-bottom: 1px solid var(--dark-foreground-color);
+    height: 40p;
+}
+
+nav ul {
+    padding-left: calc(var(--general-padding) / 2);
+}
+
+nav li {
+    display: inline-block;
+    width: 5em;
+    margin-right: var(--general-margin);
+}
