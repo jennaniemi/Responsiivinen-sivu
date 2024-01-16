@@ -70,3 +70,14 @@ article div img {
     object-position: center;
 }
 
+header {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
